@@ -277,12 +277,23 @@ section {
   width: 130%;
   max-width: 350px;
   height: auto;
+  /* Bottom Fade */
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        black 70%,
+        transparent 100%
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        black 70%,
+        transparent 100%
+    );
 }
 
 .liquid-shape {
   position: absolute;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   z-index: -1;
   top: 20%;
 }
