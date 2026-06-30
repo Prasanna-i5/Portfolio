@@ -280,20 +280,20 @@ section {
   /* Bottom Fade */
     -webkit-mask-image: linear-gradient(
         to bottom,
-        black 70%,
-        transparent 100%
+        black 50%,
+        transparent 80%
     );
     mask-image: linear-gradient(
         to bottom,
-        black 70%,
-        transparent 100%
+        black 50%,
+        transparent 80%
     );
 }
 
 .liquid-shape {
   position: absolute;
-  width: 90%;
-  height: 90%;
+  width: 130%;
+  height: 130%;
   z-index: -1;
   top: 20%;
 }
